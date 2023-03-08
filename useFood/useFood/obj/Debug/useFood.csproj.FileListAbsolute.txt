@@ -1,0 +1,11 @@
+D:\OX\usefood\useFood\useFood\bin\Debug\useFood.exe.config
+D:\OX\usefood\useFood\useFood\bin\Debug\useFood.exe
+D:\OX\usefood\useFood\useFood\bin\Debug\useFood.pdb
+D:\OX\usefood\useFood\useFood\obj\Debug\useFood.csproj.AssemblyReference.cache
+D:\OX\usefood\useFood\useFood\obj\Debug\useFood.csproj.SuggestedBindingRedirects.cache
+D:\OX\usefood\useFood\useFood\obj\Debug\useFood.Login.resources
+D:\OX\usefood\useFood\useFood\obj\Debug\useFood.Properties.Resources.resources
+D:\OX\usefood\useFood\useFood\obj\Debug\useFood.csproj.GenerateResource.cache
+D:\OX\usefood\useFood\useFood\obj\Debug\useFood.csproj.CoreCompileInputs.cache
+D:\OX\usefood\useFood\useFood\obj\Debug\useFood.exe
+D:\OX\usefood\useFood\useFood\obj\Debug\useFood.pdb
