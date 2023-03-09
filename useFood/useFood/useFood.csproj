@@ -186,6 +186,8 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="Resources\flour-sack-bread-illustration-loaf-sliced-barley-48003185.jpg" />
+    <None Include="Resources\donation.jpg" />
     <Content Include="service.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

@@ -63,6 +63,26 @@ namespace useFood.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap donation {
+            get {
+                object obj = ResourceManager.GetObject("donation", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap flour_sack_bread_illustration_loaf_sliced_barley_48003185 {
+            get {
+                object obj = ResourceManager.GetObject("flour-sack-bread-illustration-loaf-sliced-barley-48003185", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Logo_Blue {
             get {
                 object obj = ResourceManager.GetObject("Logo-Blue", resourceCulture);
