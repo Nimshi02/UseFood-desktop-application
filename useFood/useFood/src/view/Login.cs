@@ -7,8 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using useFood.src.dataBase;
 
-namespace useFood
+namespace useFood.src.view
 {
     public partial class Login : Form
     {
@@ -17,22 +18,22 @@ namespace useFood
             InitializeComponent();
         }
 
-        private void panel2_Paint(object sender, PaintEventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-
+           Register newRegister = new Register();
+            newRegister.Show();
+            this.Hide();
         }
 
-        private void label3_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-
+            string email = txtEmail.Text;
+            string password = txtPassword.Text;
+            dbCon newCon = new dbCon();
+            newCon.checkPassword(email, password);
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label6_Click(object sender, EventArgs e)
+        private void txtEmail_TextChanged(object sender, EventArgs e)
         {
 
         }
