@@ -2,10 +2,12 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Remoting.Messaging;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using useFood.src.models;
+using useFood.src.view;
 
 namespace useFood.src.dataBase
 {
@@ -48,15 +50,19 @@ namespace useFood.src.dataBase
                 if (user["password"].ToString() == password)
                 {
                     MessageBox.Show("User is authenticated");
+                    Home newHome = new Home();
+                    newHome.Show();
                 }
                 else
                 {
                     MessageBox.Show("User is not authenticated");
+                    
                 }
             }
             else
             {
                 MessageBox.Show("No msg");
+               
             }
 
         }

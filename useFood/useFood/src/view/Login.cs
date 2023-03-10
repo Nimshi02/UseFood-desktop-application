@@ -31,6 +31,7 @@ namespace useFood.src.view
             string password = txtPassword.Text;
             dbCon newCon = new dbCon();
             newCon.checkPassword(email, password);
+            this.Hide();
         }
 
         private void txtEmail_TextChanged(object sender, EventArgs e)
