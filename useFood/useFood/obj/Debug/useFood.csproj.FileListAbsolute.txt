@@ -104,3 +104,4 @@ E:\SLIIT\3rd year\2nd semester\New folder (2)\UseFood-desktop-application\useFoo
 E:\SLIIT\3rd year\2nd semester\New folder (2)\UseFood-desktop-application\useFood\useFood\obj\Debug\useFood.csproj.CopyComplete
 E:\SLIIT\3rd year\2nd semester\New folder (2)\UseFood-desktop-application\useFood\useFood\bin\Debug\service.json
 E:\SLIIT\3rd year\2nd semester\New folder (2)\UseFood-desktop-application\useFood\useFood\obj\Debug\useFood.src.view.Home.resources
+E:\SLIIT\3rd year\2nd semester\New folder (2)\UseFood-desktop-application\useFood\useFood\obj\Debug\useFood.src.view.Form1.resources

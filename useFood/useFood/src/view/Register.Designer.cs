@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.Login = new System.Windows.Forms.Button();
+            this.label8 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.txtEmail = new System.Windows.Forms.TextBox();
@@ -43,9 +45,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.Login = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -73,6 +72,28 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(706, 454);
             this.panel1.TabIndex = 0;
+            // 
+            // Login
+            // 
+            this.Login.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.Login.ForeColor = System.Drawing.Color.Snow;
+            this.Login.Location = new System.Drawing.Point(478, 409);
+            this.Login.Name = "Login";
+            this.Login.Size = new System.Drawing.Size(161, 28);
+            this.Login.TabIndex = 16;
+            this.Login.Text = "Login";
+            this.Login.UseVisualStyleBackColor = false;
+            this.Login.Click += new System.EventHandler(this.Login_Click);
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(96, 414);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(346, 23);
+            this.label8.TabIndex = 15;
+            this.label8.Text = "If you already have an account";
             // 
             // panel3
             // 
@@ -219,43 +240,11 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Create Account";
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(0, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "label2";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(96, 414);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(346, 23);
-            this.label8.TabIndex = 15;
-            this.label8.Text = "If you already have an account";
-            // 
-            // Login
-            // 
-            this.Login.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.Login.ForeColor = System.Drawing.Color.Snow;
-            this.Login.Location = new System.Drawing.Point(478, 409);
-            this.Login.Name = "Login";
-            this.Login.Size = new System.Drawing.Size(161, 28);
-            this.Login.TabIndex = 16;
-            this.Login.Text = "Login";
-            this.Login.UseVisualStyleBackColor = false;
-            this.Login.Click += new System.EventHandler(this.Login_Click);
-            // 
             // Register
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(704, 448);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(2);
@@ -264,7 +253,6 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -287,7 +275,6 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Button Login;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label2;
     }
 }
 
