@@ -31,7 +31,6 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.Login = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.txtResName = new System.Windows.Forms.TextBox();
@@ -43,14 +42,21 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.button13 = new System.Windows.Forms.Button();
+            this.button12 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Controls.Add(this.button13);
+            this.panel1.Controls.Add(this.button12);
+            this.panel1.Controls.Add(this.button11);
             this.panel1.Controls.Add(this.Login);
             this.panel1.Controls.Add(this.label8);
             this.panel1.Controls.Add(this.panel3);
@@ -94,15 +100,6 @@
             this.label8.Size = new System.Drawing.Size(346, 23);
             this.label8.TabIndex = 15;
             this.label8.Text = "If you already have an account";
-            // 
-            // panel3
-            // 
-            this.panel3.BackgroundImage = global::useFood.Properties.Resources.Logo_Blue;
-            this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panel3.Location = new System.Drawing.Point(352, 55);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(203, 132);
-            this.panel3.TabIndex = 14;
             // 
             // button1
             // 
@@ -150,6 +147,7 @@
             this.txtPassword.Location = new System.Drawing.Point(478, 297);
             this.txtPassword.Margin = new System.Windows.Forms.Padding(2);
             this.txtPassword.Name = "txtPassword";
+            this.txtPassword.PasswordChar = '*';
             this.txtPassword.Size = new System.Drawing.Size(161, 20);
             this.txtPassword.TabIndex = 9;
             // 
@@ -159,6 +157,7 @@
             this.txtCPassword.Location = new System.Drawing.Point(478, 327);
             this.txtCPassword.Margin = new System.Windows.Forms.Padding(2);
             this.txtCPassword.Name = "txtCPassword";
+            this.txtCPassword.PasswordChar = '*';
             this.txtCPassword.Size = new System.Drawing.Size(161, 20);
             this.txtCPassword.TabIndex = 8;
             // 
@@ -219,16 +218,6 @@
             this.label3.Text = "Email";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
-            // panel2
-            // 
-            this.panel2.BackgroundImage = global::useFood.Properties.Resources.useFood;
-            this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panel2.Location = new System.Drawing.Point(25, 139);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(238, 233);
-            this.panel2.TabIndex = 1;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -239,6 +228,64 @@
             this.label1.Size = new System.Drawing.Size(217, 29);
             this.label1.TabIndex = 0;
             this.label1.Text = "Create Account";
+            // 
+            // panel3
+            // 
+            this.panel3.BackgroundImage = global::useFood.Properties.Resources.Logo_Blue;
+            this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.panel3.Location = new System.Drawing.Point(352, 55);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(203, 132);
+            this.panel3.TabIndex = 14;
+            // 
+            // panel2
+            // 
+            this.panel2.BackgroundImage = global::useFood.Properties.Resources.useFood;
+            this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.panel2.Location = new System.Drawing.Point(25, 139);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(238, 233);
+            this.panel2.TabIndex = 1;
+            // 
+            // button13
+            // 
+            this.button13.BackgroundImage = global::useFood.Properties.Resources.minimize;
+            this.button13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button13.FlatAppearance.BorderSize = 0;
+            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button13.Location = new System.Drawing.Point(39, 15);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(20, 19);
+            this.button13.TabIndex = 27;
+            this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
+            // 
+            // button12
+            // 
+            this.button12.BackgroundImage = global::useFood.Properties.Resources.close;
+            this.button12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button12.FlatAppearance.BorderSize = 0;
+            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button12.Location = new System.Drawing.Point(13, 15);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(20, 19);
+            this.button12.TabIndex = 26;
+            this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
+            // 
+            // button11
+            // 
+            this.button11.BackgroundImage = global::useFood.Properties.Resources.maximize;
+            this.button11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button11.FlatAppearance.BorderSize = 0;
+            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button11.Location = new System.Drawing.Point(65, 15);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(20, 19);
+            this.button11.TabIndex = 25;
+            this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // Register
             // 
@@ -275,6 +322,9 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Button Login;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Button button11;
     }
 }
 

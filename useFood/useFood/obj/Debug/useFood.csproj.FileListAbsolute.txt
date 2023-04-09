@@ -104,4 +104,12 @@ E:\SLIIT\3rd year\2nd semester\New folder (2)\UseFood-desktop-application\useFoo
 E:\SLIIT\3rd year\2nd semester\New folder (2)\UseFood-desktop-application\useFood\useFood\obj\Debug\useFood.csproj.CopyComplete
 E:\SLIIT\3rd year\2nd semester\New folder (2)\UseFood-desktop-application\useFood\useFood\bin\Debug\service.json
 E:\SLIIT\3rd year\2nd semester\New folder (2)\UseFood-desktop-application\useFood\useFood\obj\Debug\useFood.src.view.Home.resources
-E:\SLIIT\3rd year\2nd semester\New folder (2)\UseFood-desktop-application\useFood\useFood\obj\Debug\useFood.src.view.Form1.resources
+E:\SLIIT\3rd year\2nd semester\New folder (2)\UseFood-desktop-application\useFood\useFood\bin\Debug\Google.Api.Gax.Rest.dll
+E:\SLIIT\3rd year\2nd semester\New folder (2)\UseFood-desktop-application\useFood\useFood\bin\Debug\Google.Apis.Storage.v1.dll
+E:\SLIIT\3rd year\2nd semester\New folder (2)\UseFood-desktop-application\useFood\useFood\bin\Debug\Google.Cloud.Storage.V1.dll
+E:\SLIIT\3rd year\2nd semester\New folder (2)\UseFood-desktop-application\useFood\useFood\bin\Debug\Google.Api.Gax.Rest.pdb
+E:\SLIIT\3rd year\2nd semester\New folder (2)\UseFood-desktop-application\useFood\useFood\bin\Debug\Google.Api.Gax.Rest.xml
+E:\SLIIT\3rd year\2nd semester\New folder (2)\UseFood-desktop-application\useFood\useFood\bin\Debug\Google.Apis.Storage.v1.pdb
+E:\SLIIT\3rd year\2nd semester\New folder (2)\UseFood-desktop-application\useFood\useFood\bin\Debug\Google.Apis.Storage.v1.xml
+E:\SLIIT\3rd year\2nd semester\New folder (2)\UseFood-desktop-application\useFood\useFood\bin\Debug\Google.Cloud.Storage.V1.pdb
+E:\SLIIT\3rd year\2nd semester\New folder (2)\UseFood-desktop-application\useFood\useFood\bin\Debug\Google.Cloud.Storage.V1.xml
